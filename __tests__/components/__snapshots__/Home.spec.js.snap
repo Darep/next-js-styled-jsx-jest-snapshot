@@ -2,15 +2,11 @@
 
 exports[`test renders 1`] = `
 <div
-  className="jsx-3137836563"
   id="app"
 >
-  <JSXStyle
-    css="#app.jsx-3137836563{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-family:sans-serif;height:100vh;max-width:800;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}.welcome.jsx-3137836563{margin:0;}"
-    styleId="3137836563"
-  />
+  <style />
   <h1
-    className="jsx-3137836563 welcome"
+    className="welcome"
   >
     Welcome to next.js!
   </h1>
