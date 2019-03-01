@@ -7,7 +7,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "test": "NODE_ENV=test BABEL_ENV=test jest"
+    "test": "NODE_ENV=test BABEL_ENV=test jest",
+    "patch-styled-jsx-babel": "patch -p1 -i styled-jsx.babel+3.2.1.patch -N || true",
+    "postinstall": "yarn patch-styled-jsx-babel"
   },
   "resolutions": {
     "styled-jsx": "3.2.1"
