@@ -10,7 +10,7 @@
     "test": "NODE_ENV=test BABEL_ENV=test jest"
   },
   "resolutions": {
-    "styled-jsx": "3.0.0"
+    "styled-jsx": "3.2.1"
   },
   "dependencies": {
     "@babel/core": "^7.3.4",
