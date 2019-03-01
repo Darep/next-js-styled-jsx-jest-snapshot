@@ -9,6 +9,9 @@
     "start": "next start",
     "test": "NODE_ENV=test BABEL_ENV=test jest"
   },
+  "resolutions": {
+    "styled-jsx": "3.0.0"
+  },
   "dependencies": {
     "@babel/core": "^7.3.4",
     "babel-jest": "^24.1.0",
