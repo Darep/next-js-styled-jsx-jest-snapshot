@@ -1,5 +1,8 @@
 module.exports = {
   env: {
+    development: {
+      presets: ['next/babel']
+    },
     test: {
       presets: [
         [
