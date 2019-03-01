@@ -1,0 +1,26 @@
+{
+  "name": "next-js-styled-jsx-jest-snapshot-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "NODE_ENV=test BABEL_ENV=test jest"
+  },
+  "dependencies": {
+    "@babel/core": "^7.3.4",
+    "babel-jest": "^24.1.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.10.0",
+    "enzyme-adapter-utils": "^1.10.0",
+    "enzyme-to-json": "^3.3.5",
+    "jest": "^24.1.0",
+    "jest-dom": "^3.1.2",
+    "next": "6.1.2",
+    "react": "^16.8.3",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.8.3"
+  }
+}
