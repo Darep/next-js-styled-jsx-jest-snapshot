@@ -6,19 +6,20 @@ Get started:
 
 ```
 git clone https://github.com/Darep/next-js-styled-jsx-jest-snapshot.git
+cd next-js-styled-jsx-jest-snapshot
 ```
 
-Run tests with Next.js 6.1.2 in master branch:
+Run tests with Next.js 7 in master branch and see strange snapshots:
 
 ```
 git checkout master
 rm -rf node_modules && yarn && yarn test --no-cache
 ```
 
-With Next.js 7, the snapshot test fails with each CSS character on their own line:
+Run tests with Next.js 6 and tests match the older, sensible snapshot:
 
 ```
-git checkout broken
+git checkout next6
 rm -rf node_modules && yarn && yarn test --no-cache
 ```
 
